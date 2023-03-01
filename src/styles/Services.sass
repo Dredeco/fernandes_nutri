@@ -1,0 +1,51 @@
+$darkgreen: #3F9469
+$mediumgreen: #48A878
+$lightgreen: #99CA9C
+$lighterbrown: #EECCAC
+$lightbrown: #CA8E55
+
+#services
+    padding: 1rem 0
+    width: 100%
+
+    .services-cards
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        position: absolute
+        justify-content: center
+
+        .service-card
+            position: relative
+            left: -15px
+            max-width: 400px
+            display: flex
+            flex-direction: column
+            align-items: center
+            list-style: none
+            margin: 1.5rem 1rem
+            padding: 2rem 1.5rem
+            border: 2px solid $darkgreen
+            -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
+            -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
+            box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75)
+            text-align: center
+            border-radius: 20px
+            color: #585858
+            h5
+                font-size: 150%
+                text-decoration: underline
+                text-underline-offset: 10px
+                margin-bottom: 40px
+                text-decoration-color: $darkgreen
+            button
+                margin-top: 1.5rem
+                background-color: $lightgreen
+                border: 2px solid $darkgreen
+                padding: 10px 15px
+                border-radius: 10px
+                transition: .5s
+                &:hover
+                    color: $darkgreen
+                    background-color: rgba(0, 0, 0, 0)
+                    border: 2px solid $darkgreen
