@@ -5,14 +5,14 @@ $lighterbrown: #EECCAC
 $lightbrown: #CA8E55
 
 #services
+    position: relative
     padding: 1rem 0
     width: 100%
-
+    height: auto
     .services-cards
         width: 100%
         display: flex
         flex-wrap: wrap
-        position: absolute
         justify-content: center
 
         .service-card
@@ -25,7 +25,7 @@ $lightbrown: #CA8E55
             list-style: none
             margin: 1.5rem 1rem
             padding: 2rem 1.5rem
-            border: 2px solid $darkgreen
+            border: 2px solid $lighterbrown
             -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
             -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
             box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75)
@@ -37,15 +37,16 @@ $lightbrown: #CA8E55
                 text-decoration: underline
                 text-underline-offset: 10px
                 margin-bottom: 40px
-                text-decoration-color: $darkgreen
+                text-decoration-color: $lighterbrown
             button
                 margin-top: 1.5rem
                 background-color: $lightgreen
-                border: 2px solid $darkgreen
+                border: 2px solid $lightgreen
                 padding: 10px 15px
                 border-radius: 10px
                 transition: .5s
+                color: #fff
                 &:hover
-                    color: $darkgreen
+                    color: $lightgreen
                     background-color: rgba(0, 0, 0, 0)
-                    border: 2px solid $darkgreen
+                    border: 2px solid $lightbrown
