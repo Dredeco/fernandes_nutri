@@ -24,13 +24,13 @@ export default function Navbar() {
                 <a href='#' className='nav-link active' aria-current='page'>Home</a>
               </li>
               <li className='nav-item'>
-                <a href='#' className='nav-link' aria-current='page'>Projetos</a>
+                <a href='#services' className='nav-link' aria-current='page'>Serviços</a>
               </li>
               <li className='nav-item'>
-                <a href='#' className='nav-link' aria-current='page'>Imóveis</a>
+                <a href='#calltoaction' className='nav-link' aria-current='page'>Sobre</a>
               </li>
               <li className='nav-item'>
-                <a href='#' className='nav-link' aria-current='page'>Contatos</a>
+                <a href='#' className='nav-link' aria-current='page'>Blog</a>
               </li>
             </ul>
           </div>
