@@ -31,7 +31,7 @@ export default function Navbar() {
                 <a href='#calltoaction' className='nav-link' aria-current='page'>Sobre</a>
               </li>
               <li className='nav-item'>
-                <a href='#' className='nav-link' aria-current='page'>Blog</a>
+                <a href='#blog' className='nav-link' aria-current='page'>Blog</a>
               </li>
             </ul>
           </div>

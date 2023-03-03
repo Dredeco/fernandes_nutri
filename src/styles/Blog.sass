@@ -1,0 +1,67 @@
+$darkgreen: #3F9469
+$mediumgreen: #48A878
+$lightgreen: #99CA9C
+$lighterbrown: #EECCAC
+$lightbrown: #CA8E55
+
+#blog
+    position: relative
+    padding: 2rem .5rem
+    width: 100%
+    height: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .blog-title
+        text-align: center
+        h5
+            font-size: 2rem
+            font-weight: 600
+        p
+            font-size: 1.1rem
+            margin: 1.5rem 0
+    .blog-wrapper
+        position: relative
+        height: 100%
+        width: 100%
+        .blog-card
+            display: flex
+            flex-wrap: wrap
+            position: relative
+            justify-content: space-around
+            list-style: none
+            left: -15px
+            li
+                position: relative
+                height: auto
+                width: 100%
+                max-width: 400px
+                display: flex
+                flex-direction: column
+                text-align: center
+                margin: 1rem .5rem
+                border: 5px solid rgba($darkgreen, .4)
+                border-radius: 20px
+                padding: .5rem .5rem
+                img
+                    height: 400px
+                    margin: .5rem .5rem
+                    border-radius: 20px
+                div
+                    margin: .9rem 0
+                    font-size: 1.3rem
+                    font-weight: 600
+                button
+                    margin-top: 1.5rem
+                    background-color: $lightgreen
+                    border: 2px solid $lightgreen
+                    padding: 10px 15px
+                    border-radius: 10px
+                    transition: .5s
+                    color: #fff
+                    margin: 0 20%
+                    &:hover
+                        color: $lighterbrown
+                        background-color: $darkgreen
+                        border: 2px solid $lighterbrown
