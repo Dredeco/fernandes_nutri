@@ -5,7 +5,8 @@ $lighterbrown: #EECCAC
 $lightbrown: #CA8E55
 
 #calltoaction
-    background-color: $lightgreen
+    position: relative
+    background-color: $lighterbrown
     width: 100%
     display: flex
     justify-content: space-around
@@ -14,22 +15,25 @@ $lightbrown: #CA8E55
     padding: 2rem 2rem
     color: #404040
     font-size: 120%
+    top: 80px
     .bg-image
         border-radius: 30px
         width: 500px
+        height: 500px
         max-width: 500px
-        height: 600px
-        border: 2px solid $lightbrown
+        min-height: 50%
+        border: 1px solid $lightbrown
         background-position: center
         background-size: cover
         background-image: url('../../public/womaneatingv.jpg')
     .cta-box
-        background-color: $lighterbrown
+        background-color: #fff
         width: 700px
         padding: 5rem 1rem
         margin: 1rem 0
         border-radius: 30px
         text-align: center
+        border: 1px solid $lightbrown
         h5
             font-size: 250%
             margin-bottom: 1.5rem
@@ -41,23 +45,26 @@ $lightbrown: #CA8E55
                 left: -20px
                 span
                     font-weight: 700
-                    border: 2px solid $lightbrown
+                    border: 2px solid $lightgreen
                     display: flex
                     border-radius: 20px
                     align-items: center
                     text-align: center
-                    padding: 1rem 1rem
+                    padding: 1rem .9rem
                     height: 40px
                     margin-right: 15px 
                     background-color: rgba(255,255,255,.4)
                 p
                     text-align: start
         button
-            border: 0
-            padding: 1rem 2rem
-            border-radius: .5rem
-            background-color: #fff
-            color: $darkgreen
-            border: 2px solid $darkgreen
+            margin-top: 1.5rem
+            background-color: $lightgreen
+            border: 2px solid $lightgreen
+            padding: 10px 15px
+            border-radius: 10px
+            transition: .5s
+            color: #fff
             &:hover
-                background-color: $lightgreen
+                color: $lighterbrown
+                background-color: $darkgreen
+                border: 2px solid $lighterbrown

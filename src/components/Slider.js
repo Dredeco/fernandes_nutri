@@ -13,22 +13,22 @@ export default function Slider() {
                 <div className="carousel-item active">
                     <Image src={Image1} layout='responsive' className="slider-image d-block w-100" alt="..." />
                     <div className="carousel-caption d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Fique em forma!</h5>
+                        <p>Com uma alimentação saudável e balanceada.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <Image src={Image2} layout='responsive' className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Seu peso ideal</h5>
+                        <p>Através de orientação nutricional para emagrecimento, ganho e manutenção de peso de forma saudável.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <Image src={Image3} layout='responsive' className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Supere-se!</h5>
+                        <p>Melhorando o seu desempenho e recuperação pós-exercícios.</p>
                     </div>
                 </div>
             </div>

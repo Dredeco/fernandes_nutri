@@ -1,12 +1,13 @@
 import React from 'react'
 import {BiMenu} from 'react-icons/bi'
+import {FaAppleAlt} from 'react-icons/fa'
 
 export default function Navbar() {
   return (
     <nav className='navbar navbar-expand-lg fixed-top bg-primary-color'>
         <div className='container py-3'>
-          <a>
-            <span>Fernandes Nutri</span>
+          <a className='navbar-brand' href='#'>
+            <span>Fernandes <strong>Nutri</strong><FaAppleAlt /></span>
           </a>
           <button
           className='navbar-toggler'
