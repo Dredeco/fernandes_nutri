@@ -33,6 +33,9 @@ export default function Navbar() {
               <li className='nav-item'>
                 <a href='#blog' className='nav-link' aria-current='page'>Blog</a>
               </li>
+              <li className='nav-item'>
+                <a href='#footer' className='nav-link' aria-current='page'>Contato</a>
+              </li>
             </ul>
           </div>
         </div>
