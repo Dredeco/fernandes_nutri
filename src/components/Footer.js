@@ -16,10 +16,10 @@ export default function Footer() {
                 <div className='contact_info'>
                     <h2>Informações</h2>
                     <FaPhone /><strong>Telefone:</strong><p>(22) XXXXX-XXXX</p>
-                    <GrMail /><strong>E-mail:</strong><p>fernandes@adv.com.br</p>
+                    <GrMail /><strong>E-mail:</strong><p>fernandesnutri@gmail.com</p>
                     <FaMapMarkerAlt /><strong>Localização:</strong><p>Rua Av. 28 de Março, nº000 - Sala 3</p>
                     <FaClock /><strong>Horário de Atendimento:</strong><p>De segunda a sexta, das 9h às 17h.</p>
-                    <strong>Redes sociais</strong><p><a href='/'><FaFacebook /></a><a href='/'><FaInstagram /></a></p>
+                    <strong>Redes sociais</strong><p><a href='https://facebook.com' target='_blank'><FaFacebook /></a><a href='https://instagram.com' target='_blank'><FaInstagram /></a></p>
                 </div>
     
                 <div className='contact_map'>
