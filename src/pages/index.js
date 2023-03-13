@@ -8,6 +8,7 @@ import CallToAction from '@/components/CallToAction'
 import Blog from '@/components/Blog'
 import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
+import About from '@/components/About'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Slider />
+        <About />
         <Services />
         <CallToAction />
         <Blog />

@@ -22,13 +22,13 @@ export default function Navbar() {
           <div className='collapse navbar-collapse' id='navbar-items'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <a href='#' className='nav-link active' aria-current='page'>Home</a>
+                <a href='#slider' className='nav-link active' aria-current='page'>Home</a>
+              </li>
+              <li className='nav-item'>
+                <a href='#about' className='nav-link' aria-current='page'>Sobre</a>
               </li>
               <li className='nav-item'>
                 <a href='#services' className='nav-link' aria-current='page'>Serviços</a>
-              </li>
-              <li className='nav-item'>
-                <a href='#calltoaction' className='nav-link' aria-current='page'>Sobre</a>
               </li>
               <li className='nav-item'>
                 <a href='#blog' className='nav-link' aria-current='page'>Blog</a>

@@ -1,0 +1,57 @@
+$darkgreen: #3F9469
+$mediumgreen: #48A878
+$lightgreen: #99CA9C
+$lighterbrown: #EECCAC
+$lightbrown: #CA8E55
+    
+.about
+    position: relative
+    padding: 1rem .5rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 100%
+    text-align: center
+    background-color: #ffffff
+    h1
+        padding-top: 2rem
+        font-size: 3rem
+        font-weight: 700
+        color: $lightbrown
+        text-decoration: underline
+        text-underline-offset: 6px
+    .about-wrapper
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        align-items: center
+        width: 100%
+        margin-top: 3rem
+        img
+            border: 3px solid $lightbrown !important
+            border-radius: 200px !important
+        .info
+            width: 100%
+            font-size: 2rem
+            text-align: left
+            margin-top: 2rem
+            padding: 1rem 1rem
+            h2
+                color: $darkgreen
+                font-size: 2.5rem
+                font-weight: 700
+            span
+                font-style: oblique
+                color: $darkgreen
+            p
+                color: #404040
+                font-size: 1.5rem
+                
+
+
+
+@media screen and (min-width: 992px)
+    .about-wrapper
+        .info
+            max-width: 50% !important
+            padding-left: 2rem !important

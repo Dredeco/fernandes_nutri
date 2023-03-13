@@ -12,6 +12,7 @@ export default function Services() {
     ]
   return (
     <div id='services'>
+        <h1>Serviços</h1>
         <ul className='services-cards'>
             {services.map((service) => (
                 <li className='service-card'>
