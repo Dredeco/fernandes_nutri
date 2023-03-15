@@ -1,25 +1,29 @@
-$darkgreen: #3F9469
-$mediumgreen: #48A878
-$lightgreen: #99CA9C
-$lighterbrown: #EECCAC
-$lightbrown: #CA8E55
+@use '../variables'
 
 #footer
-    background-color: $lightgreen
+    background-color: variables.$lightgreen
     position: relative
-    padding-top: 2rem
-    width: 100%
+    padding: 1rem .5rem
+    padding-top: 4rem !important
     display: flex
     flex-direction: column
     justify-content: center
+    align-items: center
+    width: 100%
     text-align: center
     color: #fff
-    h5
-        font-size: 2rem
-        font-weight: 600
-    p
-        font-size: 1.1rem
-        margin: 1rem 0
+    *
+        font-size: 1.5rem
+    h1
+        padding-top: 2rem
+        font-size: 5rem
+        font-weight: 700
+        color: #fff
+        text-decoration: underline
+        text-underline-offset: 6px
+        font-family: variables.$primary-font
+        position: relative
+        margin-bottom: 2rem
 
     .contact_wrapper
         width: 100%
@@ -27,12 +31,6 @@ $lightbrown: #CA8E55
         .contact_info
             width: 100%
             margin: 10px 0
-            h2
-                font-weight: 600
-                margin-bottom: 20px
-                text-decoration: underline
-                text-underline-offset: 10px
-                text-decoration-color: $lightbrown
             a
                 width: auto
             svg
@@ -40,21 +38,26 @@ $lightbrown: #CA8E55
                 width: auto
                 margin-right: 10px
                 margin-bottom: 8px
-                color: $lightbrown
+                color: variables.$lightbrown
             strong
                 font-size: 20px
+                color: variables.$darkgreen
             p
                 font-size: 20px
                 margin: 0px 0px
                 padding: 5px 5px
                 display: flex
                 justify-content: center
+                a
+                    svg
+                        color: #fff
+                        font-size: 4rem
         .contact_map
             iframe
                 position: relative
                 width: 100%
                 height: 400px
-                border: 1px solid $lightbrown
+                border: 1px solid variables.$lightbrown
                 padding-bottom: 4.5rem
         .footer-bar
             display: flex
@@ -62,9 +65,17 @@ $lightbrown: #CA8E55
             align-items: center
             position: absolute
             bottom: 0
+            left: -.1px
             width: 100%
+            color: #404040
             height: 80px
-            background-color: $lightbrown
+            background-color: variables.$lighterbrown
+            p
+                padding-top: 15px
+                a
+                    font-weight: 600
+                    color: variables.$darkgreen
+                    text-decoration: none
 
 @media screen and (min-width: 900px)
     .contact_form

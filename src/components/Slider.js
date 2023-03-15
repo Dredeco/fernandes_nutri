@@ -11,21 +11,46 @@ export default function Slider() {
         <div id="carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <Image src={Image1} layout='responsive' className="slider-image d-block w-100" alt="..." />
-                    <div className="carousel-caption d-md-block">
+                    <Image 
+                        src={Image1} 
+                        width={500} 
+                        height={300} 
+                        layout='fill' 
+                        objectFit='cover' 
+                        className="slider-image d-block w-100" 
+                        alt="..." 
+                    />
+                    <div className="carousel-caption">
                         <h5>Fique em forma!</h5>
                         <p>Com uma alimentação saudável e balanceada.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <Image src={Image2} layout='responsive' className="d-block w-100" alt="..." />
+                    <Image 
+                        src={Image2} 
+                        width={500} 
+                        height={300} 
+                        layout='fill' 
+                        objectFit='cover' 
+                        className="d-block w-100" 
+                        alt="..." 
+                    />
                     <div className="carousel-caption d-md-block">
                         <h5>Seu peso ideal</h5>
                         <p>Através de orientação nutricional para emagrecimento, ganho e manutenção de peso de forma saudável.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <Image src={Image3} layout='responsive' className="d-block w-100" alt="..." />
+                    <Image 
+                        src={Image3} 
+                        width={500} 
+                        height={300} 
+                        layout='fill' 
+                        objectFit='cover' 
+                        className="d-block w-100" 
+                        objectPosition='top'
+                        alt="..." 
+                    />
                     <div className="carousel-caption d-md-block">
                         <h5>Supere-se!</h5>
                         <p>Melhorando o seu desempenho e recuperação pós-exercícios.</p>

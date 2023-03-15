@@ -9,12 +9,9 @@ export default function Footer() {
     
       return (
         <div id="footer">
-            <h5>Contato</h5>
-            <p>Envie uma mensagem ou entre em contato via Whatsapp (22) XXXXX-XXXX</p>
-    
+            <h1>Contato</h1>    
             <div className='contact_wrapper'>    
                 <div className='contact_info'>
-                    <h2>Informações</h2>
                     <FaPhone /><strong>Telefone:</strong><p>(22) XXXXX-XXXX</p>
                     <GrMail /><strong>E-mail:</strong><p>fernandesnutri@gmail.com</p>
                     <FaMapMarkerAlt /><strong>Localização:</strong><p>Rua Av. 28 de Março, nº000 - Sala 3</p>
@@ -27,7 +24,7 @@ export default function Footer() {
                 </div>
 
                 <div className='footer-bar'>
-                    <p>© 2023 | Todos os direitos reservados | Criação de Sites by André Fernandes.</p>
+                    <p>© 2023 | Todos os direitos reservados | Criação de Sites por: <a href='https://dredeco.github.io/portfolio-page/'>André Fernandes.</a></p>
                 </div>
             </div>
         </div>

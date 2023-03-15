@@ -1,63 +1,68 @@
-$darkgreen: #3F9469
-$mediumgreen: #48A878
-$lightgreen: #99CA9C
-$lighterbrown: #EECCAC
-$lightbrown: #CA8E55
+@use '../variables'
 
 #services
     position: relative
     padding: 1rem .5rem
+    padding-top: 4rem !important
     display: flex
     flex-direction: column
     justify-content: center
+    align-items: center
     width: 100%
     text-align: center
-    background-color: #ffffff
+    background: linear-gradient(0deg, rgba(238,204,172,1) 0%, rgba(243,218,195,1) 9%, rgba(255,255,255,1) 100%)
+    *
+        font-size: 1.5rem
     h1
         padding-top: 2rem
-        font-size: 3rem
+        font-size: 5rem
         font-weight: 700
-        color: $lightbrown
+        color: variables.$lightbrown
         text-decoration: underline
         text-underline-offset: 6px
+        font-family: variables.$primary-font
+        position: relative
+        left: -10px
     .services-cards
         width: 100%
+        max-width: 1240px
         display: flex
         flex-wrap: wrap
         justify-content: center
 
         .service-card
             position: relative
-            left: -15px
-            max-width: 400px
+            left: -10px
+            max-width: 300px
             display: flex
             flex-direction: column
             align-items: center
             list-style: none
             margin: 1.5rem 1rem
             padding: 2rem 1.5rem
-            border: 3px solid $lighterbrown
+            border: 3px solid variables.$lighterbrown
             -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
             -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
             box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75)
             text-align: center
             border-radius: 20px
             color: #585858
+            background-color: #fff
             h5
                 font-size: 150%
                 text-decoration: underline
                 text-underline-offset: 10px
                 margin-bottom: 40px
-                text-decoration-color: $lighterbrown
+                text-decoration-color: variables.$lighterbrown
             button
                 margin-top: 1.5rem
-                background-color: $lightgreen
-                border: 2px solid $lightgreen
+                background-color: variables.$lightgreen
+                border: 2px solid variables.$lightgreen
                 padding: 10px 15px
                 border-radius: 10px
                 transition: .5s
                 color: #fff
                 &:hover
-                    color: $lighterbrown
-                    background-color: $darkgreen
-                    border: 2px solid $lighterbrown
+                    color: variables.$lighterbrown
+                    background-color: variables.$darkgreen
+                    border: 2px solid variables.$lighterbrown

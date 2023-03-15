@@ -1,34 +1,36 @@
-$darkgreen: #3F9469
-$mediumgreen: #48A878
-$lightgreen: #99CA9C
-$lighterbrown: #EECCAC
-$lightbrown: #CA8E55
+@use '../variables'
 
 #blog
     position: relative
-    padding: 2rem .5rem
+    background-color: #fff
     width: 100%
-    height: auto
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
+    padding: 2rem 2rem
+    color: #404040
+    *
+        font-size: 1.5rem
     .blog-title
         text-align: center
-        h5
-            font-size: 2rem
-            font-weight: 600
+        h1
+            padding-top: 2rem
+            font-size: 5rem
+            font-weight: 700
+            color: variables.$lightbrown
+            text-decoration: underline
+            text-underline-offset: 6px
+            font-family: variables.$primary-font
         p
-            font-size: 1.1rem
+            font-size: 1.5rem
             margin: 1.5rem 0
     .blog-wrapper
         position: relative
-        height: 100%
-        width: 100%
+        display: flex
+        justify-content: center
         .blog-card
             display: flex
             flex-wrap: wrap
             position: relative
+            width: 100%
+            max-width: 1280px
             justify-content: space-around
             list-style: none
             left: -15px
@@ -36,12 +38,12 @@ $lightbrown: #CA8E55
                 position: relative
                 height: auto
                 width: 100%
-                max-width: 400px
+                max-width: 300px
                 display: flex
                 flex-direction: column
                 text-align: center
                 margin: 1rem .5rem
-                border: 5px solid rgba($darkgreen, .4)
+                border: 5px solid rgba(variables.$darkgreen, .4)
                 border-radius: 20px
                 padding: .5rem .5rem
                 img
@@ -54,14 +56,14 @@ $lightbrown: #CA8E55
                     font-weight: 600
                 button
                     margin-top: 1.5rem
-                    background-color: $lightgreen
-                    border: 2px solid $lightgreen
+                    background-color: variables.$lightgreen
+                    border: 2px solid variables.$lightgreen
                     padding: 10px 15px
                     border-radius: 10px
                     transition: .5s
                     color: #fff
                     margin: 0 20%
                     &:hover
-                        color: $lighterbrown
-                        background-color: $darkgreen
-                        border: 2px solid $lighterbrown
+                        color: variables.$lighterbrown
+                        background-color: variables.$darkgreen
+                        border: 2px solid variables.$lighterbrown

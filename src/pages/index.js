@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
 import Services from '@/components/Services'
@@ -9,8 +7,6 @@ import Blog from '@/components/Blog'
 import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
 import About from '@/components/About'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -25,7 +21,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"></link>
       </Head>
-      <main className={styles.main}>
+      <main className='main'>
         <Navbar />
         <Slider />
         <About />

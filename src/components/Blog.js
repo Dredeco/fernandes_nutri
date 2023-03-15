@@ -14,14 +14,14 @@ export default function () {
   return (
     <div id='blog'>
         <div className='blog-title'>
-            <h5>Últimas publicações do Blog</h5>
+            <h1>Últimas publicações do Blog</h1>
             <p>Tenha um estilo de vida mais saudável, melhorando seus hábitos alimentares e conquistando mais qualidade de vida.</p>
         </div>
         <div className='blog-wrapper'>
             <ul className='blog-card'>
             {posts.map((post) => (
                 <li>
-                    <Image src={post.img} layout='responsive' width={300} height={200} className='card-image' />
+                    <Image src={post.img} layout='responsive' width={300} height={300} objectFit='cover' className='card-image' />
                     <div>{post.name}</div>
                     <button>LER MATÉRIA</button>
                 </li>

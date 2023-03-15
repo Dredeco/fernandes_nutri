@@ -1,25 +1,23 @@
-$darkgreen: #3F9469
-$mediumgreen: #48A878
-$lightgreen: #99CA9C
-$lighterbrown: #EECCAC
-$lightbrown: #CA8E55
+@use '../variables'
     
-.about
+#about
     position: relative
     padding: 1rem .5rem
+    padding-top: 4rem !important
     display: flex
     flex-direction: column
     justify-content: center
     width: 100%
     text-align: center
-    background-color: #ffffff
+    background: linear-gradient(180deg, rgba(153,202,156,1) 0%, rgba(153,202,156,1) 0%, rgba(255,255,255,1) 100%)
     h1
         padding-top: 2rem
-        font-size: 3rem
+        font-size: 5rem
         font-weight: 700
-        color: $lightbrown
+        color: #fff
         text-decoration: underline
         text-underline-offset: 6px
+        font-family: variables.$primary-font
     .about-wrapper
         display: flex
         flex-wrap: wrap
@@ -28,22 +26,24 @@ $lightbrown: #CA8E55
         width: 100%
         margin-top: 3rem
         img
-            border: 3px solid $lightbrown !important
+            border: 3px solid variables.$lightbrown !important
             border-radius: 200px !important
         .info
             width: 100%
             font-size: 2rem
-            text-align: left
+            text-align: center
             margin-top: 2rem
             padding: 1rem 1rem
             h2
-                color: $darkgreen
+                color: variables.$darkgreen
                 font-size: 2.5rem
                 font-weight: 700
             span
+                font-size: 2rem
                 font-style: oblique
-                color: $darkgreen
+                color: variables.$lightbrown
             p
+                margin-top: 1rem
                 color: #404040
                 font-size: 1.5rem
                 

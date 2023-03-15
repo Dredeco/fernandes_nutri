@@ -10,18 +10,20 @@ export default function CallToAction() {
     ]
   return (
     <div id='calltoaction' className=''>
-        <div className='bg-image'></div>
-        <div className='cta-box'>
-            <h5>Alcance seus objetivos</h5>
-            <ul className='cta-box-items'>
-            {items.map((item) => (
-                <li className='items-wrapper'>
-                    <span>{item.id}</span>
-                    <p><strong>{item.name}:</strong> {item.description}</p>
-                </li>
-            ))}
-            </ul>
-            <button>Entre em contato!</button>
+        <div className='container'>
+            <div className='bg-image' />
+            <div className='cta-box'>
+                <h5>Alcance seus objetivos</h5>
+                <ul className='cta-box-items'>
+                {items.map((item) => (
+                    <li className='items-wrapper'>
+                        <span>{item.id}</span>
+                        <p><strong>{item.name}:</strong> {item.description}</p>
+                    </li>
+                ))}
+                </ul>
+                <button>Entre em contato!</button>
+            </div>
         </div>
     </div>
   )

@@ -1,12 +1,13 @@
-import '@/styles/globals.css'
-import '@/styles/Navbar.sass'
-import '@/styles/Slider.sass'
-import '@/styles/Services.sass'
-import '@/styles/CallToAction.sass'
-import '@/styles/Blog.sass'
-import '@/styles/Footer.sass'
-import '@/styles/WhatsappButton.sass'
-import '@/styles/About.sass' 
+import '@/styles/globals.sass'
+import '@/styles/components/Navbar.sass'
+import '@/styles/components/Slider.sass'
+import '@/styles/components/Services.sass'
+import '@/styles/components/CallToAction.sass'
+import '@/styles/components/Blog.sass'
+import '@/styles/components/Footer.sass'
+import '@/styles/components/WhatsappButton.sass'
+import '@/styles/components/About.sass' 
+import '@/styles/Home.sass'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
