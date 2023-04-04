@@ -46,6 +46,9 @@ export default function Navbar() {
                 <a href='#services' className='nav-link' aria-current='page'>Serviços</a>
               </li>
               <li className='nav-item'>
+                <a href='#feedback' className='nav-link' aria-current='page'>Depoimentos</a>
+              </li>
+              <li className='nav-item'>
                 <a href='#blog' className='nav-link' aria-current='page'>Blog</a>
               </li>
               <li className='nav-item'>

@@ -7,6 +7,7 @@ import Blog from '@/components/Blog'
 import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
 import About from '@/components/About'
+import Feedback from '@/components/Feedback'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <About />
         <Services />
         <CallToAction />
+        <Feedback />
         <Blog />
         <Footer />
         <WhatsappButton />
