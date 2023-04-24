@@ -9,6 +9,7 @@ export default function Footer() {
     
       return (
         <div id="footer">
+            <div className='container'>
             <h1>Contato</h1>    
             <div className='contact_wrapper'>    
                 <div className='contact_info'>
@@ -26,6 +27,7 @@ export default function Footer() {
                 <div className='footer-bar'>
                     <p>© 2023 | Todos os direitos reservados | Criação de Sites por: <a href='https://dredeco.github.io/portfolio-page/'>André Fernandes.</a></p>
                 </div>
+            </div>
             </div>
         </div>
     )

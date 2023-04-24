@@ -1,6 +1,9 @@
+import Image from 'next/image';
 import React, {useEffect} from 'react'
 import {BiMenu} from 'react-icons/bi'
 import {FaAppleAlt} from 'react-icons/fa'
+
+import Logo from '../../public/logo.png'
 
 export default function Navbar() {
 
@@ -22,7 +25,12 @@ export default function Navbar() {
     <nav id='navbar' className='navbar navbar-expand-lg fixed-top bg-primary-color'>
         <div className='container'>
           <a className='navbar-brand' href='#'>
-            <span>Fernandes <strong>Nutri</strong><FaAppleAlt /></span>
+            <Image 
+              src={Logo}
+              width={180}
+              height={60}
+              alt='logo'
+            />
           </a>
           <button
           className='navbar-toggler'
@@ -37,7 +45,7 @@ export default function Navbar() {
           <div className='collapse navbar-collapse' id='navbar-items'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <a href='#slider' className='nav-link active' aria-current='page'>Home</a>
+                <a href='#' className='nav-link active' aria-current='page'>Home</a>
               </li>
               <li className='nav-item'>
                 <a href='#about' className='nav-link' aria-current='page'>Sobre</a>

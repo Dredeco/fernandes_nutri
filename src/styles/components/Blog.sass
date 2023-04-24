@@ -4,23 +4,18 @@
     position: relative
     background-color: #fff
     width: 100%
-    padding: 2rem 2rem
+    padding: 2rem 0
     color: #404040
+    top: -7rem
     *
         font-size: 1.5rem
     .blog-title
         text-align: center
         h1
-            padding-top: 2rem
+            padding-top: 7rem
             font-size: 5rem
-            font-weight: 700
-            color: variables.$lightbrown
-            text-decoration: underline
-            text-underline-offset: 6px
             font-family: variables.$primary-font
-        p
-            font-size: 1.5rem
-            margin: 1.5rem 0
+            margin-bottom: 4rem
     .blog-wrapper
         position: relative
         display: flex
@@ -41,6 +36,7 @@
                 max-width: 300px
                 display: flex
                 flex-direction: column
+                justify-content: space-between
                 text-align: center
                 margin: 1rem .5rem
                 border: 5px solid rgba(variables.$darkgreen, .4)
@@ -52,9 +48,15 @@
                     border-radius: 20px
                 div
                     margin: .9rem 0
-                    font-size: 1.3rem
+                    font-size: 2rem
                     font-weight: 600
                 button
+                    position: relative
+                    left: 50%
+                    transform: translate(-50%, 0)
+                    text-transform: uppercase
+                    font-weight: 600
+                    width: 70%
                     margin-top: 1.5rem
                     background-color: variables.$lightgreen
                     border: 2px solid variables.$lightgreen
@@ -62,8 +64,6 @@
                     border-radius: 10px
                     transition: .5s
                     color: #fff
-                    margin: 0 20%
-                    &:hover
-                        color: variables.$lighterbrown
+                    &:hover, &:active
                         background-color: variables.$darkgreen
                         border: 2px solid variables.$lighterbrown

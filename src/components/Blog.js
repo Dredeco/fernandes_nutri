@@ -15,7 +15,6 @@ export default function () {
     <div id='blog'>
         <div className='blog-title'>
             <h1>Últimas publicações do Blog</h1>
-            <p>Tenha um estilo de vida mais saudável, melhorando seus hábitos alimentares e conquistando mais qualidade de vida.</p>
         </div>
         <div className='blog-wrapper'>
             <ul className='blog-card'>

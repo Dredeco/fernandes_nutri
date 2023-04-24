@@ -8,6 +8,7 @@ import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
 import About from '@/components/About'
 import Feedback from '@/components/Feedback'
+import Hero from '@/components/Hero'
 
 export default function Home() {
   return (
@@ -24,10 +25,10 @@ export default function Home() {
       </Head>
       <main className='main'>
         <Navbar />
-        <Slider />
+        <Hero />
         <About />
-        <Services />
         <CallToAction />
+        <Services />
         <Feedback />
         <Blog />
         <Footer />

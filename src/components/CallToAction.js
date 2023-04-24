@@ -11,7 +11,6 @@ export default function CallToAction() {
   return (
     <div id='calltoaction' className=''>
         <div className='container'>
-            <div className='bg-image' />
             <div className='cta-box'>
                 <h5>Alcance seus objetivos</h5>
                 <ul className='cta-box-items'>
@@ -22,7 +21,7 @@ export default function CallToAction() {
                     </li>
                 ))}
                 </ul>
-                <button>Entre em contato!</button>
+                <a href='https://wa.me/5522997971144' target='_blank'>Entre em contato!</a>
             </div>
         </div>
     </div>

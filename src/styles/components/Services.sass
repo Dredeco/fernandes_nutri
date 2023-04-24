@@ -2,7 +2,6 @@
 
 #services
     position: relative
-    padding: 1rem .5rem
     padding-top: 4rem !important
     display: flex
     flex-direction: column
@@ -10,59 +9,64 @@
     align-items: center
     width: 100%
     text-align: center
-    background: linear-gradient(0deg, rgba(238,204,172,1) 0%, rgba(243,218,195,1) 9%, rgba(255,255,255,1) 100%)
+    margin-bottom: 4rem
     *
-        font-size: 1.5rem
-    h1
-        padding-top: 2rem
-        font-size: 5rem
-        font-weight: 700
-        color: variables.$lightbrown
-        text-decoration: underline
-        text-underline-offset: 6px
-        font-family: variables.$primary-font
-        position: relative
-        left: -10px
-    .services-cards
+        font-size: 1.6rem
+    .container
+        background-color: variables.$lighterbrown
+        height: 100%
         width: 100%
-        max-width: 1240px
-        display: flex
-        flex-wrap: wrap
-        justify-content: center
-
-        .service-card
+        padding-bottom: 2rem
+        h1
+            margin-top: 4rem
+            font-size: 5rem
+            color: #303030
+            font-family: variables.$primary-font
             position: relative
             left: -10px
-            max-width: 300px
+        .services-cards
+            width: 100%
             display: flex
-            flex-direction: column
-            align-items: center
-            list-style: none
-            margin: 1.5rem 1rem
-            padding: 2rem 1.5rem
-            border: 3px solid variables.$lighterbrown
-            -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
-            -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
-            box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75)
-            text-align: center
-            border-radius: 20px
-            color: #585858
-            background-color: #fff
-            h5
-                font-size: 150%
-                text-decoration: underline
-                text-underline-offset: 10px
-                margin-bottom: 40px
-                text-decoration-color: variables.$lighterbrown
-            button
-                margin-top: 1.5rem
-                background-color: variables.$lightgreen
-                border: 2px solid variables.$lightgreen
-                padding: 10px 15px
-                border-radius: 10px
-                transition: .5s
-                color: #fff
-                &:hover
-                    color: variables.$lighterbrown
-                    background-color: variables.$darkgreen
-                    border: 2px solid variables.$lighterbrown
+            flex-wrap: wrap
+            justify-content: center
+
+            .service-card
+                position: relative
+                left: -10px
+                max-width: 300px
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: space-between
+                list-style: none
+                margin: 1.5rem 1rem
+                padding: 2rem 1.5rem
+                border: 3px solid variables.$lightgreen
+                -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
+                -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75)
+                box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75)
+                text-align: center
+                border-radius: 20px
+                color: #202020
+                background-color: #fff
+                h5
+                    font-size: 150%
+                    text-decoration-color: variables.$lighterbrown
+                .line
+                    width: 70%
+                    height: 3px
+                    margin: .5rem 0
+                    background-color: variables.$lightbrown
+                button
+                    text-transform: uppercase
+                    font-weight: 600
+                    margin-top: 1.5rem
+                    background-color: variables.$lightgreen
+                    border: 2px solid variables.$lightgreen
+                    padding: 10px 15px
+                    border-radius: 10px
+                    transition: .5s
+                    color: #fff
+                    &:hover, &:active
+                        background-color: variables.$darkgreen
+                        border: 2px solid variables.$lighterbrown

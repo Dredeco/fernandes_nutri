@@ -2,66 +2,68 @@
 
 #calltoaction
     position: relative
-    background-color: variables.$lighterbrown
+    background-image: url('../../../public/foods1.jpg')
+    background-size: cover
+    background-position: center
     width: 100%
-    padding: 2rem 2rem
+    padding: 2rem 0
     color: #404040
     *
         font-size: 1.5rem
     .container
         display: flex
         justify-content: space-around
-        max-width: 1240px
+        height: 100%
         align-items: center
         flex-wrap: wrap
-        
-    .bg-image
-        border-radius: 30px
-        width: 500px
-        height: 500px
-        max-width: 500px
-        min-height: 50%
-        border: 1px solid variables.$lightbrown
-        background-position: center
-        background-size: cover
-        background-image: url('../../../public/womaneatingv.jpg')
     .cta-box
         width: 100%
-        background-color: #fff
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        background-color: rgba(255, 255, 255, .9)
         min-height: 50%
         padding: 5rem 1rem
         margin: 1rem 0
         border-radius: 30px
         text-align: center
-        border: 1px solid variables.$lightbrown
         h5
-            font-size: 250%
+            font-family: variables.$primary-font
+            font-size: 5rem
             margin-bottom: 1.5rem
-            font-weight: 600
-            color: variables.$darkgreen
+            color: variables.$lightbrown
         .cta-box-items
-            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: left
             li
                 display: flex
                 list-style: none
                 position: relative
                 left: -20px
                 height: auto
+                *
+                    font-size: 2rem
                 span
                     font-weight: 700
-                    border: 2px solid variables.$lightgreen
+                    border: 3px solid variables.$lightgreen
                     display: flex
                     border-radius: 20px
                     align-items: center
                     text-align: center
-                    padding: 1rem .9rem
-                    height: 30px
-                    min-width: 30px
+                    justify-content: center
+                    height: 40px
+                    min-width: 40px
                     margin-right: 15px 
-                    background-color: rgba(255,255,255,.4)
+                    font-size: 3rem
                 p
                     text-align: start
-        button
+        a
+            text-decoration: none
+            text-transform: uppercase
+            width: 70%
+            font-weight: 600
             margin-top: 1.5rem
             background-color: variables.$lightgreen
             border: 2px solid variables.$lightgreen
@@ -69,12 +71,6 @@
             border-radius: 10px
             transition: .5s
             color: #fff
-            &:hover
-                color: variables.$lighterbrown
+            &:hover, &:active
                 background-color: variables.$darkgreen
                 border: 2px solid variables.$lighterbrown
-
-@media screen and (min-width: 992px)
-    .bg-image, .cta-box
-        max-width: 48% !important
-        margin: 0 .5rem !important

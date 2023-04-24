@@ -12,16 +12,19 @@ export default function Services() {
     ]
   return (
     <div id='services'>
+        <div className='container'>
         <h1>Serviços</h1>
         <ul className='services-cards'>
             {services.map((service) => (
                 <li className='service-card'>
                     <h5>{service.name}</h5>
+                    <div className='line'/>
                     <span>{service.description}</span>
                     <button href='#'>Saiba Mais</button>
                 </li>
             ))}
         </ul>
+        </div>
     </div>
   )
 }

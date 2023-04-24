@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 
 import Image1 from './../../public/foods1.jpg'
 import Image2 from './../../public/foods2.jpg'
-import Image3 from './../../public/womanworkout.jpg'
+import Image3 from './../../public/workoutbg.jpg'
 
 export default function Slider() {
   return (
