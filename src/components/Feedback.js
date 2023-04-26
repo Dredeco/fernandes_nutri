@@ -1,9 +1,14 @@
 import React from 'react'
+import Image from 'next/legacy/image'
 
 import User1 from './../../public/pic1.jpg'
 import User2 from './../../public/pic2.jpg'
 import User3 from './../../public/pic3.jpg'
-import Image from 'next/legacy/image'
+
+import Depo1 from './../../public/depo5.jpg'
+import Depo2 from './../../public/depo2.jpg'
+import Depo3 from './../../public/depo3.jpg'
+import Depo4 from './../../public/depo4.jpg'
 
 export default function Feedback() {
   let feedbacks = [
@@ -29,6 +34,15 @@ export default function Feedback() {
             </li>
           ))}
         </ul>
+
+        <div className='results'>
+              <div className='depoiments'>
+                <Image src={Depo1} alt='/'/>
+                <Image src={Depo2} alt='/'/>
+                <Image src={Depo3} alt='/'/>
+                <Image src={Depo4} alt='/'/>
+              </div>
+        </div>
       </div>
     </div>
   )
